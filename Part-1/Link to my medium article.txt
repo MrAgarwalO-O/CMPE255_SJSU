@@ -1,0 +1,6 @@
+Hi, 
+My Medium article is linked below. 
+Please keep in mind that I did, in fact, use ChatGPT to generate bits of the medium article (not all of it, but some of it).
+
+
+https://medium.com/@agarwal.sajal30/learning-data-science-with-chatgpt-a-case-study-on-the-world-happiness-report-baf165626303
