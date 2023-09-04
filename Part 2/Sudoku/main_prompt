@@ -1,0 +1,12 @@
+"Sudoku Solver with GUI using Backtracking
+
+- Objective: Develop a Sudoku GUI for gameplay and automated solving using backtracking.
+- Tools: Visual Studio Code, Python, Tkinter, unittest.
+- Steps:
+  1. Setup: Initialize project in Visual Studio Code with necessary Python packages in a virtual environment.
+  2. Design: Create a 9x9 grid Sudoku board with Tkinter allowing user inputs.
+  3. Algorithm Implementation: Develop a backtracking algorithm to find solutions, incorporating validity checks and backtracking steps.
+  4. GUI: Include options for changing difficulty level such as (easy, medium, hard) solving, and checking solutions, with appropriate alerts.
+  5. Refactoring: Enhance algorithm efficiency and user experience, modularizing code.
+  6. Testing: Implement unittests for board validity, algorithm correctness, and GUI interactions.
+  7. Documentation: Include inline comments and a README file explaining features and usage."
