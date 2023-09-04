@@ -4,6 +4,10 @@ Assignment 1
 
 This is the first assignment which is focused on teaching us the basics of data science. Through this assignment I learned about the various operations in data science such as Data understanding, analysis, visualization, cleaning etc.<br>
 
+Part 1 of this assignment was to perform multiple data science operations on a dataset using the **chatgpt code interpreter**. For this I used the ["World Happiness Report up to 2022"](https://www.kaggle.com/datasets/mathurinache/world-happiness-report) kaggle dataset and performed various data science operations using chatgpt.<br>
+
+Part 2 of this assignment was to create an application using gpt-engineer and with the help of Visual studio code extension **github copilot chat** perform multiple operations such as writing a function, testcase, and refactor it. But due to **no access to the extension (github copilot chat)** I have used used gpt-engineer to create the entire application and another visual studio code extension **github coplit** to create and refactor the test cases.<br>
+
 **List of files:**<br>
   *Part 2/Sudoku<br>
   *Part 1<br>
