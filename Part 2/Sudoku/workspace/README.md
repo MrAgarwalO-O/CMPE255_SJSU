@@ -1,49 +1,47 @@
 
-# Sudoku with GUI using Backtracking
+# Sudoku Solver with GUI
 
 ## Objective
-Develop a Sudoku GUI for gameplay and checking solution using a backtracking algorithm.
+Develop a graphical user interface (GUI) for users to play Sudoku. The project serves as a foundational structure to build upon, with functionalities for gameplay and automated solving to be implemented.
 
-## Tools
-- **Visual Studio Code**: Primary IDE for development
-- **Python**: Main programming language
-- **Tkinter**: To build the GUI component of the application
-- **unittest**: Python library for unit testing
+## Current Structure
 
-## Development Steps
+### 1. Setup and Tools
+- The project is initiated in Visual Studio Code with Python as the main programming language.
+- Tkinter is utilized for creating the graphical user interface, and the unittest library is suggested for future unit testing during development.
 
-### 1. Setup
-- Initialize a new project in Visual Studio Code
-- Install necessary Python packages
-- Setup a virtual environment (recommended)
+### 2. Sudoku Board Design (sudoku_gui.py)
+- The `SudokuGUI` class is a skeleton that includes methods to create a window using Tkinter. This will serve as the base for further developments including the Sudoku game and solver implementations.
+- The `create_menu` and `create_board` methods are placeholders to implement functionalities for creating a menu and a 9x9 Sudoku board.
 
-### 2. Sudoku Board Design
-- Create a visually appealing 9x9 grid (3x3 grids) representation for the Sudoku board using Tkinter
-- Allow user inputs in each cell of the Sudoku board
+### 3. Algorithm Implementation (sudoku_solver.py)
+- This file is earmarked to house the backtracking algorithm for solving Sudoku puzzles in future developments.
 
-### 3. Algorithm Implementation
-- Develop a backtracking algorithm to find solutions
-- Incorporate validity checks and backtracking steps during the implementation
+### 4. Game Logic (sudoku_game.py)
+- This file is designated to contain the `SudokuGame` class where the game logic will be implemented in the future. This includes generating new puzzles and checking the validity of moves.
 
-### 4. GUI Functionality
-- Include buttons or menu options to reset the board, solve the Sudoku, and check user solutions
-- Implement alerts for incorrect moves or successful completion
+### 5. Unit Testing (test_sudoku.py)
+- This file is set to contain unit tests to verify the correct functionality of the different components of the application in future developments.
 
-### 5. Code Refactoring
-- Optimize the backtracking algorithm for better efficiency
-- Enhance the GUI for improved user experience
-- Modularize the code separating GUI and algorithm logic
+### 6. Documentation (README.md)
+- The README file gives an overview of the project, explaining the objective and tools used, and outlines the steps involved in the development process.
 
-### 6. Unit Testing
-- Use the unittest library to create tests for board validity, algorithm correctness, and GUI interactions
+## Next Steps
 
-### 7. Documentation
-- Add inline comments explaining the functionality and logic of your code
-- Provide a comprehensive README file detailing the features and usage instructions of the application
+1. **Implementing the Backtracking Algorithm**:
+  - Develop a function to find empty cells and try placing numbers 1 to 9, checking the validity at each step and backtracking if necessary until a solution is found.
+
+2. **Developing the GUI**:
+  - Implement the methods to create a Sudoku board grid and a menu with options like reset, check solution, and solve using the backtracking algorithm.
+
+3. **Enhancing User Experience**:
+  - Improve the GUI design for a better user experience and implement alerts/messages for incorrect moves or successful completion.
+
+4. **Unit Testing**:
+  - Develop unit tests to verify the functionality of the game logic and the backtracking algorithm.
 
 ## How to Run
-- Open the project in Visual Studio Code
-- Run `main.py` to start the application
-- Use the GUI to play Sudoku or solve it using the backtracking algorithm
+- Open the project in Visual Studio Code.
+- Run `main.py` to initialize the application, which will serve as the starting point for future developments.
 
-For more information, refer to the inline comments and documentation within the code files.
+For further details, refer to the inline comments and documentation within the code files.
