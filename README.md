@@ -16,5 +16,4 @@ Part 2/Sudoku - A Sudoku GUI application which was written by gpt-engineer. I ha
 
 Part 1 - Contains a text file which contains a link to the medium article.
 
-Assignment_2_screencast.mov - A recording of me performing various actions using github copilot and displaying operations performed by gpt-engineer.
-  
+Assignment_2_screencast.mov - A recording of me performing various actions using github copilot and displaying operations performed by gpt-engineer. 
